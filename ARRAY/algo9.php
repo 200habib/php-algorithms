@@ -13,11 +13,26 @@ $h = 7;
 $h = 7;
 
 } else {
+$sum = - $p[0] + $p[1] + $p[2] . "\n"; 
 
-for ($i = 1; $i < 2; $i ++) {
+for ($i = 1; $i < 3; $i ++) {
 
- $sum = - $p[0] + $p[1] + $p[2];	
-echo $sum; 
+ if ($i == 1) { 
+
+$m =$sum +2;	
+
+$array1 = [$p[1], $sum, $m] ;
+
+echo "Valore quando i < 1: ";
+var_dump($array1); 
+echo "\n";
+
+}else {
+
+$m = $sum +2;
+
+}
+	
 
 }
 }
